@@ -1,0 +1,118 @@
+body {
+    margin: 0; 
+    font-family: "Inter", sans-serif; 
+    background-color: #add7f0;
+    font-optical-sizing: auto;
+}
+
+header {
+    background-color: #2091f5; 
+    margin: 0; 
+    padding: 15px 0; 
+}
+
+header h1 {
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+header nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0; 
+}
+
+header nav ul li {
+    font-family: "Agdasima", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    display: inline; 
+    margin-right: 20px; 
+}
+
+header nav ul li a {
+    text-decoration: none; 
+    color: white; 
+    transition: color 0.3s; 
+}
+
+header nav ul li a:hover {
+    color: #FFD700; 
+}
+
+section h2, h3 {
+    text-align: center;
+    padding: 10px;
+    background-color: #38a1fc;
+}
+
+section h3 {
+    text-align: center; /* Centraliza o h3 */
+    padding: 10px;
+}
+
+.classroom {
+    display: grid;
+    grid-template-columns: repeat(3, 100px); 
+    gap: 50px; 
+    justify-content: center; 
+    max-width: 100%; 
+    margin: 0 auto; 
+    padding: 30px;
+}
+
+.desk {
+    width: 100px;
+    height: 100px;
+    background-color: #7FB3D5; 
+    cursor: pointer; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #3A6D99; 
+    transition: transform 0.2s;
+}
+
+.desk:hover {
+    transform: scale(1.05); 
+}
+
+
+.info {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    max-width: 1600px; 
+    margin: 0 auto; 
+}
+
+.rules-infos {
+    flex: 1; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    padding: 20px; 
+    background-color: rgba(255, 255, 255, 0); 
+    border: 2px dashed transparent; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    max-width: 500px; 
+    margin-left: 20px; /* Espaçamento entre a imagem e o texto */
+}
+
+
+.rules-infos p {
+    margin: 5px 0; 
+    text-align: justify; 
+}
